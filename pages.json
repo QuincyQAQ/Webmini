@@ -201,6 +201,13 @@
 			}
 		},
 		{
+			"path" : "pages/forum/forum",
+			"style" : 
+			{
+				"navigationBarTitleText" : "论坛"
+			}
+		},
+		{
 			"path" : "pages/mock/mockManager",
 			"style" : 
 			{

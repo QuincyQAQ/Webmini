@@ -25,6 +25,11 @@
 				<text class="flex-1 margin-left-10">联系客服</text>
 				<image class="size-14" src="/static/images/item_arrow.png"></image>
 			</view>
+			<view @click="onForumClick" class="menu linear-horizontal flex-align-center">
+				<image class="size-16" src="/static/images/icon_service.png"></image>
+				<text class="flex-1 margin-left-10">论坛</text>
+				<image class="size-14" src="/static/images/item_arrow.png"></image>
+			</view>
 			<view class="menu linear-horizontal flex-align-center">
 				<image class="size-16" src="/static/images/icon_logout.png"></image>
 				<text @click="onLogoutClick" class="flex-1 margin-left-10">退出登录</text>
@@ -156,7 +161,12 @@
 			onInfoClick(){
 				uni.navigateTo({
 					url: "/pages/mine/userinfo"
+				},
+			onForumClick(){
+				uni.navigateTo({
+					url: "/pages/forum/forum"
 				})
+			})
 			}
 		}
 	}
