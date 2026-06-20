@@ -14,7 +14,7 @@
 			refresher-enabled :refresher-triggered="isRefreshing" @refresherrefresh="onRefresh" @scrolltolower="onLoadMore">
 				<view class="item linear-vertical" @click="onDetailClick(item.applyId)" v-for="(item, index) in list" :key="index">
 					<view class="linear-horizontal flex-align-center">
-						<text class="numberplate">{{item.numberPlate ? item.numberPlate : "等待调度机器人..."}}</text>
+						<text class="numberplate">{{item.numberPlate ? item.numberPlate : "等待分配巡检机器人..."}}</text>
 						<!-- <text class="role">专员</text> -->
 						<view class="flex-1"></view>
 						<text class="status" :style="{'color': checkedTab.color}">{{checkedTab.name}}</text>
