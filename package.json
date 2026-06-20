@@ -1,0 +1,31 @@
+{
+	"scripts": {
+		"mock:on": "node scripts/toggleMock.js on",
+		"mock:off": "node scripts/toggleMock.js off",
+		"mock:toggle": "node scripts/toggleMock.js toggle",
+		"mock:status": "node scripts/toggleMock.js status",
+		"map:config": "node scripts/configMap.js"
+	},
+	"dependencies": {
+		"@dcloudio/uni-cli-i18n": "^2.0.2-5000720260410001",
+		"@dcloudio/uni-cli-shared": "^2.0.2-5000720260410001",
+		"@dcloudio/uni-h5": "^2.0.2-5000720260410001",
+		"@dcloudio/uni-i18n": "^2.0.2-5000720260410001",
+		"@dcloudio/uni-mp-vite": "^3.0.0-alpha-3021020211012002",
+		"@dcloudio/uni-mp-weixin": "^2.0.2-5000720260410001",
+		"@dcloudio/uni-shared": "^3.0.0-alpha-3000020210521001",
+		"@dcloudio/uni-stat": "^2.0.2-5000720260410001",
+		"@dcloudio/uni-ui": "^1.5.12",
+		"@dcloudio/vite-plugin-uni": "^3.0.0-alpha-3000020210521001",
+		"@vitejs/plugin-vue2": "^2.3.4",
+		"crypto-js": "^4.2.0",
+		"semver": "^7.8.4",
+		"uview-ui": "^2.0.38",
+		"vite": "^5.4.21",
+		"vue": "2.7",
+		"webpack": "^5.107.2"
+	},
+	"devDependencies": {
+		"sass-embedded": "^1.100.0"
+	}
+}

@@ -1,0 +1,8 @@
+.hbuilderx/
+uni_modules/
+unpackage/
+node_modules/
+*.apk
+package-lock.json
+docs
+*test*

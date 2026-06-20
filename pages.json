@@ -1,0 +1,282 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "巡检机器人管理",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/mine/mine",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/ai/ai",
+			"style" : 
+			{
+				"navigationBarTitleText" : "AI对话",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/mine/userinfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "用户信息"
+			}
+		},
+		{
+			"path" : "pages/trajectory/play",
+			"style" : 
+			{
+				"navigationBarTitleText" : "轨迹回放"
+			}
+		},
+		{
+			"path" : "pages/trajectory/query",
+			"style" : 
+			{
+				"navigationBarTitleText" : "轨迹回放"
+			}
+		},
+		{
+			"path" : "pages/fix/list",
+			"style" : 
+			{
+				"navigationBarTitleText" : "维修管理",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/fix/form",
+			"style" : 
+			{
+				"navigationBarTitleText" : "申请维修"
+			}
+		},
+		{
+			"path" : "pages/task/task",
+			"style" : 
+			{
+				"navigationBarTitleText" : "待办任务",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/apply/applyList",
+			"style" : 
+			{
+				"navigationBarTitleText" : "巡检任务申请",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/task/driverList",
+			"style" : 
+			{
+				"navigationBarTitleText" : "驾驶员列表"
+			}
+		},
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/apply/applyForm",
+			"style" : 
+			{
+				"navigationBarTitleText" : "巡检任务申请"
+			}
+		},
+		{
+			"path" : "pages/fix/confirm",
+			"style" : 
+			{
+				"navigationBarTitleText" : "确认"
+			}
+		},
+		{
+			"path" : "pages/fix/distribution",
+			"style" : 
+			{
+				"navigationBarTitleText" : "分配"
+			}
+		},
+		{
+			"path" : "pages/fix/approval",
+			"style" : 
+			{
+				"navigationBarTitleText" : "审批"
+			}
+		},
+		{
+			"path" : "pages/fix/fixDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "维修详情",
+				"navigationBarBackgroundColor": "#2F7FF0",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/task/taskDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "任务详情",
+				"navigationBarBackgroundColor": "#2F7FF0",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/mine/modifyPwd",
+			"style" : 
+			{
+				"navigationBarTitleText" : "修改密码"
+			}
+		},
+		{
+			"path" : "pages/mine/setting",
+			"style" : 
+			{
+				"navigationBarTitleText" : "设置"
+			}
+		},
+		{
+			"path" : "pages/task/stopScheduling",
+			"style" : 
+			{
+				"navigationBarTitleText" : "停止调度"
+			}
+		},
+		{
+			"path" : "pages/task/vehicleList",
+			"style" : 
+			{
+				"navigationBarTitleText" : "机器人列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/task/scheduling",
+			"style" : 
+			{
+				"navigationBarTitleText" : "调度"
+			}
+		},
+		{
+			"path" : "pages/index/setting",
+			"style" : 
+			{
+				"navigationBarTitleText" : "机器人设置"
+			}
+		},
+		{
+			"path" : "pages/index/search",
+			"style" : 
+			{
+				"navigationBarTitleText" : "搜索"
+			}
+		},
+		{
+			"path" : "pages/login/register",
+			"style" : 
+			{
+				"navigationBarTitleText" : "注册账号"
+			}
+		},
+		{
+			"path" : "pages/web/web",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/mock/mockManager",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Mock数据管理",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/mock/loginTest",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Mock登录测试",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/mock/mapTest",
+			"style" : 
+			{
+				"navigationBarTitleText" : "地图功能测试",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/mock/simpleMapTest",
+			"style" : 
+			{
+				"navigationBarTitleText" : "基础地图测试",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/mock/mapConfigCheck",
+			"style" : 
+			{
+				"navigationBarTitleText" : "地图配置检查",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/mock/locationTest",
+			"style" : 
+			{
+				"navigationBarTitleText" : "定位功能测试",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	//自定义Tabbar，故此处特殊处理
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index"
+			},
+			{
+				"pagePath": "pages/task/task"
+			},
+			{
+				"pagePath": "pages/apply/applyList"
+			},
+			{
+				"pagePath": "pages/fix/list"
+			},
+			{
+				"pagePath": "pages/mine/mine"
+			},
+			{
+				"pagePath": "pages/ai/ai"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "巡检机器人管理",
+		"navigationBarBackgroundColor": "#FFF",
+		"backgroundColor": "#FFF"
+	},
+	"uniIdRouter": {}
+}
